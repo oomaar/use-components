@@ -1,8 +1,15 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Navbar } from "./components";
+import { HomeScreen } from "./screens";
+
 const App = () => {
   return (
-    <h1>
-      Roboto
-    </h1>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route to="/" componet={HomeScreen} />
+      </Switch>
+    </Router>
   );
 };
 
