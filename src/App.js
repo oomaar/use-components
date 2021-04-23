@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Navbar } from "./components";
+import { Navbar, Sidebar } from "./components";
 import { HomeScreen } from "./screens";
 
 const App = () => {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Sidebar />
       <Switch>
         <Route to="/" componet={HomeScreen} />
       </Switch>
