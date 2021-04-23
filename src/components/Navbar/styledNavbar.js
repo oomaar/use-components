@@ -67,12 +67,7 @@ export const NavBtnLink = styled(Link)`
 `;
 
 export const Bars = styled.div`
-    /* display: none;
-    width: 35px;
-    height: 35px;
-    padding: 5px;
-    background: #15cdfc;
-    border-radius: 3px; */
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
